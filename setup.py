@@ -33,6 +33,6 @@ setuptools.setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     packages         = [PKG_NAME],
-    url              = "https://github.com/WJ714/Available_Energy_based_Correction",
+    url              = "https://github.com/WJ714/aec_correction",
     python_requires  = '>=3.8',
 )
