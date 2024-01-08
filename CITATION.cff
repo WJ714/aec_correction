@@ -4,8 +4,10 @@ authors:
 - family-names: "Zhang"
   given-names: "Weijie"
 - family-names: "Nelson"
-  middl-name: "A."
+  middle-name: "A."
   given-names: "Jacob"
+- family-names: "Jung"
+  given-names: "Martin"
 title: "WJ714/aec_correction: Available Energy based energy balance closure Correction"
 version: 1.0.0
 doi: 10.5281/zenodo.10472257
