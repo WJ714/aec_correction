@@ -1,4 +1,4 @@
-# Available_Energy_based_Correction
+# aec_correction
 
 ## Tutorial for the Available_Energy_based_Correction at one Eddy Covariance site, FR-Pue.
 
