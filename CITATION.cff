@@ -3,7 +3,7 @@ message: "If you use this package, please cite it as below, and the associated a
 authors:
 - family-names: "Zhang"
   given-names: "Weijie"
-title:"WJ714/aec_correction: Available Energy based energy balance closure Correction"
+title: "WJ714/aec_correction: Available Energy based energy balance closure Correction"
 version: 1.0.0
 doi: 10.5281/zenodo.10472257
 date-released: 2024-01-08
