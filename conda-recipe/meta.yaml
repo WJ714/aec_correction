@@ -1,0 +1,38 @@
+{% set name = "aec_correction" %}
+{% set version = "1.0.1" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  path: ..
+
+build:
+  noarch: python
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+
+requirements:
+  host:
+    - python >=3.8
+    - pip
+    - setuptools
+  run:
+    - python >=3.8
+    - numpy
+    - scipy
+    - scikit-learn
+    - statsmodels
+    - xarray
+
+test:
+  imports:
+    - aec_correction
+
+about:
+  home: https://github.com/WJ714/aec_correction
+  license: GPL-3.0-only
+  license_family: GPL
+  summary: Available-Energy-based Correction for eddy covariance energy balance closure
+  dev_url: https://github.com/WJ714/aec_correction

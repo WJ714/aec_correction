@@ -2,7 +2,7 @@
 
 Key function can be installed via conda:
 ```python
-conda install -c fluxcom aec_correction
+conda install -c fluxnet_EBC aec_correction
 ```
 ## Tutorial for the Available_Energy_based_Correction at one Eddy Covariance site, FR-Pue.
 
